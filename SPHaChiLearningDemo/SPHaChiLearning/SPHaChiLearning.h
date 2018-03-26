@@ -10,5 +10,6 @@
 
 @interface SPHaChiLearning : NSObject
 
+- (NSString *)getStringsWithStr:(NSString *)str;
 
 @end
