@@ -16,18 +16,17 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SPHaChiLearning"
-  s.version      = "0.0.2"
-  s.summary      = "A short description of SPHaChiLearning.水平的组件化练习"
+  s.version      = "0.0.3"
+  s.summary      = "水平的组件化练习"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = < "MIT", :file => "FILE_LICENSE" }
 
-  s.homepage     = "http://EXAMPLE/SPHaChiLearning"
+  s.homepage     = "https://github.com/shuiping2018/SPHaChiLearning"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
