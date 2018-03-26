@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SPHaChiLearning"
-  s.version      = "0.0.3"
+  s.version      = "0.0.1"
   s.summary      = "水平的组件化练习"
 
   # This description is used to generate tags and improve search results.
@@ -24,7 +24,9 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = < "MIT", :file => "FILE_LICENSE" }
+  s.description  = <<-DESC  
+                       It is a SPHaChiLearning on iOS, which implement by Objective-C.  
+                       DESC
 
   s.homepage     = "https://github.com/shuiping2018/SPHaChiLearning"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -37,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -86,7 +88,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "SPHaChiLearningDemo/SPHaChiLearningDemo/SPHaChiLearning", "SPHaChiLearning/**/*.{h,m}"
+  s.source_files  = "SPHaChiLearning/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
