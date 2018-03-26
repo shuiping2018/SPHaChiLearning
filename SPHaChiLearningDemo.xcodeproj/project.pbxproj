@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		722C83F12068DB6F00F32BF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 722C83F02068DB6F00F32BF9 /* AppDelegate.m */; };
+		722C83F42068DB6F00F32BF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 722C83F32068DB6F00F32BF9 /* ViewController.m */; };
+		722C83F72068DB6F00F32BF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 722C83F52068DB6F00F32BF9 /* Main.storyboard */; };
+		722C83F92068DB6F00F32BF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 722C83F82068DB6F00F32BF9 /* Assets.xcassets */; };
+		722C83FC2068DB6F00F32BF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 722C83FA2068DB6F00F32BF9 /* LaunchScreen.storyboard */; };
+		722C83FF2068DB6F00F32BF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 722C83FE2068DB6F00F32BF9 /* main.m */; };
+		722C84092068DB6F00F32BF9 /* SPHaChiLearningDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 722C84082068DB6F00F32BF9 /* SPHaChiLearningDemoTests.m */; };
+		722C84142068DB6F00F32BF9 /* SPHaChiLearningDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 722C84132068DB6F00F32BF9 /* SPHaChiLearningDemoUITests.m */; };
+		722C84242068DB7F00F32BF9 /* SPHaChiLearning.m in Sources */ = {isa = PBXBuildFile; fileRef = 722C84232068DB7F00F32BF9 /* SPHaChiLearning.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		722C84052068DB6F00F32BF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 722C83E42068DB6F00F32BF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 722C83EB2068DB6F00F32BF9;
+			remoteInfo = SPHaChiLearningDemo;
+		};
+		722C84102068DB6F00F32BF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 722C83E42068DB6F00F32BF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 722C83EB2068DB6F00F32BF9;
+			remoteInfo = SPHaChiLearningDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		722C83EC2068DB6F00F32BF9 /* SPHaChiLearningDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPHaChiLearningDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		722C83EF2068DB6F00F32BF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		722C83F02068DB6F00F32BF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		722C83F22068DB6F00F32BF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		722C83F32068DB6F00F32BF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		722C83F62068DB6F00F32BF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		722C83F82068DB6F00F32BF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		722C83FB2068DB6F00F32BF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		722C83FD2068DB6F00F32BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		722C83FE2068DB6F00F32BF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		722C84042068DB6F00F32BF9 /* SPHaChiLearningDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPHaChiLearningDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		722C84082068DB6F00F32BF9 /* SPHaChiLearningDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPHaChiLearningDemoTests.m; sourceTree = "<group>"; };
+		722C840A2068DB6F00F32BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		722C840F2068DB6F00F32BF9 /* SPHaChiLearningDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPHaChiLearningDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		722C84132068DB6F00F32BF9 /* SPHaChiLearningDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPHaChiLearningDemoUITests.m; sourceTree = "<group>"; };
+		722C84152068DB6F00F32BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		722C84222068DB7F00F32BF9 /* SPHaChiLearning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHaChiLearning.h; sourceTree = "<group>"; };
+		722C84232068DB7F00F32BF9 /* SPHaChiLearning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHaChiLearning.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		722C83E92068DB6F00F32BF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722C84012068DB6F00F32BF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722C840C2068DB6F00F32BF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		722C83E32068DB6F00F32BF9 = {
+			isa = PBXGroup;
+			children = (
+				722C83EE2068DB6F00F32BF9 /* SPHaChiLearningDemo */,
+				722C84072068DB6F00F32BF9 /* SPHaChiLearningDemoTests */,
+				722C84122068DB6F00F32BF9 /* SPHaChiLearningDemoUITests */,
+				722C83ED2068DB6F00F32BF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		722C83ED2068DB6F00F32BF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				722C83EC2068DB6F00F32BF9 /* SPHaChiLearningDemo.app */,
+				722C84042068DB6F00F32BF9 /* SPHaChiLearningDemoTests.xctest */,
+				722C840F2068DB6F00F32BF9 /* SPHaChiLearningDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		722C83EE2068DB6F00F32BF9 /* SPHaChiLearningDemo */ = {
+			isa = PBXGroup;
+			children = (
+				722C84212068DB7F00F32BF9 /* SPHaChiLearning */,
+				722C83EF2068DB6F00F32BF9 /* AppDelegate.h */,
+				722C83F02068DB6F00F32BF9 /* AppDelegate.m */,
+				722C83F22068DB6F00F32BF9 /* ViewController.h */,
+				722C83F32068DB6F00F32BF9 /* ViewController.m */,
+				722C83F52068DB6F00F32BF9 /* Main.storyboard */,
+				722C83F82068DB6F00F32BF9 /* Assets.xcassets */,
+				722C83FA2068DB6F00F32BF9 /* LaunchScreen.storyboard */,
+				722C83FD2068DB6F00F32BF9 /* Info.plist */,
+				722C83FE2068DB6F00F32BF9 /* main.m */,
+			);
+			path = SPHaChiLearningDemo;
+			sourceTree = "<group>";
+		};
+		722C84072068DB6F00F32BF9 /* SPHaChiLearningDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				722C84082068DB6F00F32BF9 /* SPHaChiLearningDemoTests.m */,
+				722C840A2068DB6F00F32BF9 /* Info.plist */,
+			);
+			path = SPHaChiLearningDemoTests;
+			sourceTree = "<group>";
+		};
+		722C84122068DB6F00F32BF9 /* SPHaChiLearningDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				722C84132068DB6F00F32BF9 /* SPHaChiLearningDemoUITests.m */,
+				722C84152068DB6F00F32BF9 /* Info.plist */,
+			);
+			path = SPHaChiLearningDemoUITests;
+			sourceTree = "<group>";
+		};
+		722C84212068DB7F00F32BF9 /* SPHaChiLearning */ = {
+			isa = PBXGroup;
+			children = (
+				722C84222068DB7F00F32BF9 /* SPHaChiLearning.h */,
+				722C84232068DB7F00F32BF9 /* SPHaChiLearning.m */,
+			);
+			path = SPHaChiLearning;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		722C83EB2068DB6F00F32BF9 /* SPHaChiLearningDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 722C84182068DB6F00F32BF9 /* Build configuration list for PBXNativeTarget "SPHaChiLearningDemo" */;
+			buildPhases = (
+				722C83E82068DB6F00F32BF9 /* Sources */,
+				722C83E92068DB6F00F32BF9 /* Frameworks */,
+				722C83EA2068DB6F00F32BF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPHaChiLearningDemo;
+			productName = SPHaChiLearningDemo;
+			productReference = 722C83EC2068DB6F00F32BF9 /* SPHaChiLearningDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		722C84032068DB6F00F32BF9 /* SPHaChiLearningDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 722C841B2068DB6F00F32BF9 /* Build configuration list for PBXNativeTarget "SPHaChiLearningDemoTests" */;
+			buildPhases = (
+				722C84002068DB6F00F32BF9 /* Sources */,
+				722C84012068DB6F00F32BF9 /* Frameworks */,
+				722C84022068DB6F00F32BF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				722C84062068DB6F00F32BF9 /* PBXTargetDependency */,
+			);
+			name = SPHaChiLearningDemoTests;
+			productName = SPHaChiLearningDemoTests;
+			productReference = 722C84042068DB6F00F32BF9 /* SPHaChiLearningDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		722C840E2068DB6F00F32BF9 /* SPHaChiLearningDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 722C841E2068DB6F00F32BF9 /* Build configuration list for PBXNativeTarget "SPHaChiLearningDemoUITests" */;
+			buildPhases = (
+				722C840B2068DB6F00F32BF9 /* Sources */,
+				722C840C2068DB6F00F32BF9 /* Frameworks */,
+				722C840D2068DB6F00F32BF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				722C84112068DB6F00F32BF9 /* PBXTargetDependency */,
+			);
+			name = SPHaChiLearningDemoUITests;
+			productName = SPHaChiLearningDemoUITests;
+			productReference = 722C840F2068DB6F00F32BF9 /* SPHaChiLearningDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		722C83E42068DB6F00F32BF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "王水平";
+				TargetAttributes = {
+					722C83EB2068DB6F00F32BF9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					722C84032068DB6F00F32BF9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 722C83EB2068DB6F00F32BF9;
+					};
+					722C840E2068DB6F00F32BF9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 722C83EB2068DB6F00F32BF9;
+					};
+				};
+			};
+			buildConfigurationList = 722C83E72068DB6F00F32BF9 /* Build configuration list for PBXProject "SPHaChiLearningDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 722C83E32068DB6F00F32BF9;
+			productRefGroup = 722C83ED2068DB6F00F32BF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				722C83EB2068DB6F00F32BF9 /* SPHaChiLearningDemo */,
+				722C84032068DB6F00F32BF9 /* SPHaChiLearningDemoTests */,
+				722C840E2068DB6F00F32BF9 /* SPHaChiLearningDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		722C83EA2068DB6F00F32BF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722C83FC2068DB6F00F32BF9 /* LaunchScreen.storyboard in Resources */,
+				722C83F92068DB6F00F32BF9 /* Assets.xcassets in Resources */,
+				722C83F72068DB6F00F32BF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722C84022068DB6F00F32BF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722C840D2068DB6F00F32BF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		722C83E82068DB6F00F32BF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722C84242068DB7F00F32BF9 /* SPHaChiLearning.m in Sources */,
+				722C83F42068DB6F00F32BF9 /* ViewController.m in Sources */,
+				722C83FF2068DB6F00F32BF9 /* main.m in Sources */,
+				722C83F12068DB6F00F32BF9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722C84002068DB6F00F32BF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722C84092068DB6F00F32BF9 /* SPHaChiLearningDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722C840B2068DB6F00F32BF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722C84142068DB6F00F32BF9 /* SPHaChiLearningDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		722C84062068DB6F00F32BF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 722C83EB2068DB6F00F32BF9 /* SPHaChiLearningDemo */;
+			targetProxy = 722C84052068DB6F00F32BF9 /* PBXContainerItemProxy */;
+		};
+		722C84112068DB6F00F32BF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 722C83EB2068DB6F00F32BF9 /* SPHaChiLearningDemo */;
+			targetProxy = 722C84102068DB6F00F32BF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		722C83F52068DB6F00F32BF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				722C83F62068DB6F00F32BF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		722C83FA2068DB6F00F32BF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				722C83FB2068DB6F00F32BF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		722C84162068DB6F00F32BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		722C84172068DB6F00F32BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		722C84192068DB6F00F32BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4DSTTV3BM;
+				INFOPLIST_FILE = SPHaChiLearningDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shuiping.SPHaChiLearningDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		722C841A2068DB6F00F32BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4DSTTV3BM;
+				INFOPLIST_FILE = SPHaChiLearningDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shuiping.SPHaChiLearningDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		722C841C2068DB6F00F32BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4DSTTV3BM;
+				INFOPLIST_FILE = SPHaChiLearningDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shuiping.SPHaChiLearningDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPHaChiLearningDemo.app/SPHaChiLearningDemo";
+			};
+			name = Debug;
+		};
+		722C841D2068DB6F00F32BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4DSTTV3BM;
+				INFOPLIST_FILE = SPHaChiLearningDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shuiping.SPHaChiLearningDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPHaChiLearningDemo.app/SPHaChiLearningDemo";
+			};
+			name = Release;
+		};
+		722C841F2068DB6F00F32BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4DSTTV3BM;
+				INFOPLIST_FILE = SPHaChiLearningDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shuiping.SPHaChiLearningDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SPHaChiLearningDemo;
+			};
+			name = Debug;
+		};
+		722C84202068DB6F00F32BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4DSTTV3BM;
+				INFOPLIST_FILE = SPHaChiLearningDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shuiping.SPHaChiLearningDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SPHaChiLearningDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		722C83E72068DB6F00F32BF9 /* Build configuration list for PBXProject "SPHaChiLearningDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				722C84162068DB6F00F32BF9 /* Debug */,
+				722C84172068DB6F00F32BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		722C84182068DB6F00F32BF9 /* Build configuration list for PBXNativeTarget "SPHaChiLearningDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				722C84192068DB6F00F32BF9 /* Debug */,
+				722C841A2068DB6F00F32BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		722C841B2068DB6F00F32BF9 /* Build configuration list for PBXNativeTarget "SPHaChiLearningDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				722C841C2068DB6F00F32BF9 /* Debug */,
+				722C841D2068DB6F00F32BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		722C841E2068DB6F00F32BF9 /* Build configuration list for PBXNativeTarget "SPHaChiLearningDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				722C841F2068DB6F00F32BF9 /* Debug */,
+				722C84202068DB6F00F32BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 722C83E42068DB6F00F32BF9 /* Project object */;
+}
