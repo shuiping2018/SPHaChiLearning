@@ -16,6 +16,8 @@
 		722C84092068DB6F00F32BF9 /* SPHaChiLearningDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 722C84082068DB6F00F32BF9 /* SPHaChiLearningDemoTests.m */; };
 		722C84142068DB6F00F32BF9 /* SPHaChiLearningDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 722C84132068DB6F00F32BF9 /* SPHaChiLearningDemoUITests.m */; };
 		722C84242068DB7F00F32BF9 /* SPHaChiLearning.m in Sources */ = {isa = PBXBuildFile; fileRef = 722C84232068DB7F00F32BF9 /* SPHaChiLearning.m */; };
+		724D60E8206CEBBD002B3211 /* Target_B.m in Sources */ = {isa = PBXBuildFile; fileRef = 724D60E7206CEBBD002B3211 /* Target_B.m */; };
+		724D60EB206CEBF8002B3211 /* SPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 724D60EA206CEBF8002B3211 /* SPViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		722C84152068DB6F00F32BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		722C84222068DB7F00F32BF9 /* SPHaChiLearning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHaChiLearning.h; sourceTree = "<group>"; };
 		722C84232068DB7F00F32BF9 /* SPHaChiLearning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHaChiLearning.m; sourceTree = "<group>"; };
+		724D60E6206CEBBD002B3211 /* Target_B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_B.h; sourceTree = "<group>"; };
+		724D60E7206CEBBD002B3211 /* Target_B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_B.m; sourceTree = "<group>"; };
+		724D60E9206CEBF8002B3211 /* SPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPViewController.h; sourceTree = "<group>"; };
+		724D60EA206CEBF8002B3211 /* SPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,10 +145,22 @@
 		722C84212068DB7F00F32BF9 /* SPHaChiLearning */ = {
 			isa = PBXGroup;
 			children = (
+				724D60E5206CEBBC002B3211 /* Actions */,
 				722C84222068DB7F00F32BF9 /* SPHaChiLearning.h */,
 				722C84232068DB7F00F32BF9 /* SPHaChiLearning.m */,
+				724D60E9206CEBF8002B3211 /* SPViewController.h */,
+				724D60EA206CEBF8002B3211 /* SPViewController.m */,
 			);
 			path = SPHaChiLearning;
+			sourceTree = "<group>";
+		};
+		724D60E5206CEBBC002B3211 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				724D60E6206CEBBD002B3211 /* Target_B.h */,
+				724D60E7206CEBBD002B3211 /* Target_B.m */,
+			);
+			path = Actions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +297,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				722C84242068DB7F00F32BF9 /* SPHaChiLearning.m in Sources */,
+				724D60EB206CEBF8002B3211 /* SPViewController.m in Sources */,
 				722C83F42068DB6F00F32BF9 /* ViewController.m in Sources */,
+				724D60E8206CEBBD002B3211 /* Target_B.m in Sources */,
 				722C83FF2068DB6F00F32BF9 /* main.m in Sources */,
 				722C83F12068DB6F00F32BF9 /* AppDelegate.m in Sources */,
 			);

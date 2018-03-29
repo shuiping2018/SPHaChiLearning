@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SPHaChiLearning"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "水平的组件化练习"
 
   # This description is used to generate tags and improve search results.
