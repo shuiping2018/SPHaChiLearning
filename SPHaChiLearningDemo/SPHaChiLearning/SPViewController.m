@@ -29,7 +29,7 @@
     _titleLabel = [[UILabel alloc] init];
     _titleLabel.frame = CGRectMake(50, 150, self.view.frame.size.width - 100, 100);
     _titleLabel.backgroundColor = [UIColor clearColor];
-    _titleLabel.text = @"label";
+    _titleLabel.text = _titleStr;
     _titleLabel.numberOfLines = 0;
     _titleLabel.textColor = [UIColor blackColor];
     _titleLabel.textAlignment = NSTextAlignmentLeft;
