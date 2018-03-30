@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.view.backgroundColor = [UIColor whiteColor];
     [self initLabel];
 }
 
@@ -71,7 +71,7 @@
 {
     _titleStr = titleStr;
     
-    _titleLabel.text = _titleLabel;
+    _titleLabel.text = _titleStr;
 }
 
 #pragma mark

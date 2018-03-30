@@ -96,7 +96,8 @@ typedef void (^CTUrlRouterCallbackBlock)(NSDictionary *info);
 {
     // 因为action是从属于ModuleA的，所以action直接可以使用ModuleA里的所有声明
     SPViewController *viewController = [[SPViewController alloc] init];
-    viewController.titleStr = params[@"title"];
+    viewController.titleStr = params[@"titleStr"];
+    viewController.navigationItem.title = params[@"NavtitleStr"];
     return viewController;
 }
 

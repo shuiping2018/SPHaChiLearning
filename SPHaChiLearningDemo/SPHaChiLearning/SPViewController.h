@@ -13,6 +13,6 @@
 @property (nonatomic, strong, readonly) UILabel *valueLabel;
 @property (nonatomic, strong, readonly) UIImageView *imageView;
 
-@property (nonatomic, strong) NSString * titleStr;
+@property (nonatomic, copy) NSString * titleStr;
 
 @end
